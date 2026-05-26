@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b644e059-e165-45b1-abfb-9c057bfa636e">
+  <name>BKM_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.BKM_ОбслуживаниеКлиентов</content>
+  <content>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>Catalog.BKM_УведомленияТелеграмБоту</content>
+  <content>Constant.BKM_ТокенУправленияТБотом</content>
+  <content>Constant.BKM_ИдентификаторГруппыОповещения</content>
+  <content>ScheduledJob.BKM_ОтправкаСообщенийВТелеграм</content>
+</mdclass:Subsystem>

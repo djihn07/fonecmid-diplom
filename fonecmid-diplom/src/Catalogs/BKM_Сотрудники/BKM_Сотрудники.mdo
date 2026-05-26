@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5878c7b-4470-4afe-b530-2bd401c9e813">
+  <producedTypes>
+    <objectType typeId="e5ce7af2-3545-4a14-83d3-7e79b3056b55" valueTypeId="806c1e30-1ce6-44d7-be76-99659929e3e7"/>
+    <refType typeId="0dc268fc-dd67-4aef-b72e-9beee8ff620b" valueTypeId="d3cd6bb6-86dd-4a4a-8b52-ef385a96e718"/>
+    <selectionType typeId="bff8afaa-172d-434b-97eb-268ad1af0d1c" valueTypeId="a5a6266f-0f8c-4c6e-9ec9-aa246c19d89b"/>
+    <listType typeId="e4fde762-bafa-45c5-817e-b596fd840c0c" valueTypeId="b8d41f0e-98a5-4f85-b471-deafadee2b3e"/>
+    <managerType typeId="5a7bcad2-98c6-48d4-88d7-68949697a726" valueTypeId="68e824e5-80bf-4e06-aa8e-b7aeb890c74d"/>
+  </producedTypes>
+  <name>BKM_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.BKM_Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.BKM_Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудник</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
