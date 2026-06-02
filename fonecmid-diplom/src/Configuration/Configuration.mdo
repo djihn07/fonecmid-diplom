@@ -628,6 +628,13 @@
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.BKM_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</roles>
+  <roles>Role.BKM_ДобавлениеИзменениеДокументаРеализацияТоваровИУслуг</roles>
+  <roles>Role.BKM_ИспользованиеОбработкиМассовоеСозданиеАктов</roles>
+  <roles>Role.BKM_ДобавлениеИзменениеДокументаНачисленияЗаработнойПлаты</roles>
+  <roles>Role.BKM_ИспользованиеОбработкиЗаполнениеГрафикаРабот</roles>
+  <roles>Role.BKM_ДобавлениеИзменениеДокументаНачисленияФиксированнойПремии</roles>
+  <roles>Role.BKM_ДобавлениеИзменениеДокументаВыплатаЗарплаты</roles>
+  <roles>Role.BKM_ДобавлениеИзменениеДокументаГрафикОтпусков</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -886,6 +893,7 @@
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.BKM_Телеграм</commonModules>
+  <commonModules>CommonModule.BKM_ДоработкаДокументаРеализацияТоваровИУслугСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1052,6 +1060,12 @@
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.BKM_Документы</commandGroups>
+  <commandGroups>CommandGroup.BKM_Справочники</commandGroups>
+  <commandGroups>CommandGroup.BKM_РегистрыСведений</commandGroups>
+  <commandGroups>CommandGroup.BKM_РегистрыНакопления</commandGroups>
+  <commandGroups>CommandGroup.BKM_РегистрыРассчета</commandGroups>
+  <commandGroups>CommandGroup.BKM_Обработки</commandGroups>
   <constants>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.ГлавныйУзел</constants>
@@ -1120,6 +1134,8 @@
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.BKM_ТокенУправленияТБотом</constants>
   <constants>Constant.BKM_ИдентификаторГруппыОповещения</constants>
+  <constants>Constant.BKM_НоменклатураАбонентскаяПлата</constants>
+  <constants>Constant.BKM_НоменклатураРаботыСпециалиста</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -1225,12 +1241,18 @@
   <catalogs>Catalog.BKM_Сотрудники</catalogs>
   <catalogs>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.BKM_УведомленияТелеграмБоту</catalogs>
+  <catalogs>Catalog.BKM_ГрафикиРабот</catalogs>
+  <catalogs>Catalog.BKM_Подразделения</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
   <documents>Document.ПоступлениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.BKM_ОбслуживаниеКлиентов</documents>
+  <documents>Document.BKM_НачислениеЗаработнойПлаты</documents>
+  <documents>Document.BKM_НачислениеФиксированнойПремии</documents>
+  <documents>Document.BKM_ВыплатаЗарплаты</documents>
+  <documents>Document.BKM_ГрафикОтпусков</documents>
   <documentJournals>DocumentJournal.Деньги</documentJournals>
   <enums>Enum.ВариантыОтображенияМеток</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1318,6 +1340,8 @@
   <dataProcessors>DataProcessor.Сканирование</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
+  <dataProcessors>DataProcessor.BKM_МассовоеСозданиеАктов</dataProcessors>
+  <dataProcessors>DataProcessor.BKM_ЗаполнениеГрафикаРабот</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
@@ -1386,6 +1410,9 @@
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФайлыВРабочемКаталоге</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <informationRegisters>InformationRegister.BKM_ГрафикиРабот</informationRegisters>
+  <informationRegisters>InformationRegister.BKM_УсловияОплатыСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.BKM_СведенияОбОтпусках</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПокупателей</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ЗадолженностьПоставщикам</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Затраты</accumulationRegisters>
@@ -1394,5 +1421,12 @@
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.BKM_Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.BKM_ОсновныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.BKM_ДополнительныеНачисления</calculationRegisters>
+  <calculationRegisters>CalculationRegister.BKM_Удержания</calculationRegisters>
 </mdclass:Configuration>

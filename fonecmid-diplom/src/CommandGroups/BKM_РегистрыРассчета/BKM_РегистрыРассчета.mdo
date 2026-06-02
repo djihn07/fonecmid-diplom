@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="846e33ec-243b-4c76-aec6-bd0dbf463422">
+  <name>BKM_РегистрыРассчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры рассчета</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

@@ -8,4 +8,22 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>ChartOfCalculationTypes.BKM_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_Удержания</content>
+  <content>InformationRegister.BKM_ГрафикиРабот</content>
+  <content>Catalog.BKM_ГрафикиРабот</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <content>Catalog.BKM_Подразделения</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
+  <content>CalculationRegister.BKM_Удержания</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
 </mdclass:Subsystem>
