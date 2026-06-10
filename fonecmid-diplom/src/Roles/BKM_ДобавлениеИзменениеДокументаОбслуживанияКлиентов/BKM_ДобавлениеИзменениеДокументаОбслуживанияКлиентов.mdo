@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b087a229-ca63-40d9-a851-ac897170082e">
+  <name>BKM_ДобавлениеИзменениеДокументаОбслуживанияКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>BKM добавление изменение документа обслуживания клиентов</value>
+  </synonym>
+</mdclass:Role>

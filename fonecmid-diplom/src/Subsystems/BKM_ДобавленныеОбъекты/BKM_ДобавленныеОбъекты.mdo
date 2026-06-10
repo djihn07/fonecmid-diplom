@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b644e059-e165-45b1-abfb-9c057bfa636e">
+  <name>BKM_ДобавленныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.BKM_ОбслуживаниеКлиентов</content>
+  <content>Catalog.BKM_ОбслуживаниеКлиентовПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы</content>
+  <content>AccumulationRegister.BKM_ВыполненныеСотрудникомРаботы</content>
+  <content>Catalog.BKM_УведомленияТелеграмБоту</content>
+  <content>Constant.BKM_ТокенУправленияТБотом</content>
+  <content>Constant.BKM_ИдентификаторГруппыОповещения</content>
+  <content>ScheduledJob.BKM_ОтправкаСообщенийВТелеграм</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Constant.BKM_НоменклатураАбонентскаяПлата</content>
+  <content>Constant.BKM_НоменклатураРаботыСпециалиста</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.BKM_Сотрудники</content>
+  <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
+  <content>ChartOfCalculationTypes.BKM_ОсновныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_ДополнительныеНачисления</content>
+  <content>ChartOfCalculationTypes.BKM_Удержания</content>
+  <content>InformationRegister.BKM_ГрафикиРабот</content>
+  <content>Catalog.BKM_ГрафикиРабот</content>
+  <content>CalculationRegister.BKM_ОсновныеНачисления</content>
+  <content>InformationRegister.BKM_УсловияОплатыСотрудников</content>
+  <content>Catalog.BKM_Подразделения</content>
+  <content>Document.BKM_НачислениеЗаработнойПлаты</content>
+  <content>AccumulationRegister.BKM_ВзаиморасчетыССотрудниками</content>
+  <content>InformationRegister.BKM_СведенияОбОтпусках</content>
+  <content>CalculationRegister.BKM_ДополнительныеНачисления</content>
+  <content>CalculationRegister.BKM_Удержания</content>
+  <content>Document.BKM_НачислениеФиксированнойПремии</content>
+  <content>Document.BKM_ВыплатаЗарплаты</content>
+  <content>Document.BKM_ГрафикОтпусков</content>
+  <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
+  <content>Report.BKM_ВыработкаCпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>Report.BKM_РасчётыССотрудниками</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
+</mdclass:Subsystem>
