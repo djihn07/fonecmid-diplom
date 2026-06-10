@@ -38,4 +38,8 @@
   <content>Document.BKM_ВыплатаЗарплаты</content>
   <content>Document.BKM_ГрафикОтпусков</content>
   <content>DataProcessor.BKM_ЗаполнениеГрафикаРабот</content>
+  <content>Report.BKM_ВыработкаCпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
+  <content>Report.BKM_РасчётыССотрудниками</content>
+  <content>Report.BKM_РасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>

@@ -16,4 +16,6 @@
   <content>Catalog.BKM_УведомленияТелеграмБоту</content>
   <content>DataProcessor.BKM_МассовоеСозданиеАктов</content>
   <content>Catalog.BKM_Подразделения</content>
+  <content>Report.BKM_ВыработкаCпециалистов</content>
+  <content>Report.BKM_АнализВыставленныхАктов</content>
 </mdclass:Subsystem>

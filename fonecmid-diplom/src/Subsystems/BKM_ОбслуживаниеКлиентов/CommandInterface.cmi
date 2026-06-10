@@ -38,6 +38,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.BKM_Подразделения.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -62,6 +68,7 @@
       <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_Подразделения.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.BKM_РегистрыНакопления</group>
@@ -84,10 +91,16 @@
       <commands>Catalog.BKM_Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.BKM_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
+      <commands>Catalog.BKM_Подразделения.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.BKM_РегистрыНакопления</group>
       <commands>AccumulationRegister.BKM_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.BKM_АнализВыставленныхАктов.StandardCommand.Open</commands>
+      <commands>Report.BKM_ВыработкаCпециалистов.StandardCommand.Open</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.BKM_Обработки</group>

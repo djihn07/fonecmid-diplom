@@ -635,6 +635,10 @@
   <roles>Role.BKM_ДобавлениеИзменениеДокументаНачисленияФиксированнойПремии</roles>
   <roles>Role.BKM_ДобавлениеИзменениеДокументаВыплатаЗарплаты</roles>
   <roles>Role.BKM_ДобавлениеИзменениеДокументаГрафикОтпусков</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаВыработкаСпециалистов</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаАнализВыставленныхАктов</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаАнализРасчётыССотрудниками</roles>
+  <roles>Role.BKM_ИспользованиеОтчетаАнализРасходЗапланированныхОтпусков</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1136,6 +1140,7 @@
   <constants>Constant.BKM_ИдентификаторГруппыОповещения</constants>
   <constants>Constant.BKM_НоменклатураАбонентскаяПлата</constants>
   <constants>Constant.BKM_НоменклатураРаботыСпециалиста</constants>
+  <constants>Constant.BKM_ГрафикОтпуска</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -1315,6 +1320,10 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.BKM_ВыработкаCпециалистов</reports>
+  <reports>Report.BKM_АнализВыставленныхАктов</reports>
+  <reports>Report.BKM_РасчётыССотрудниками</reports>
+  <reports>Report.BKM_РасходЗапланированныхОтпусков</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
